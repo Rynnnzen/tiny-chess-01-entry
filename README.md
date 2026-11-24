@@ -8,4 +8,10 @@ searches with alpha-beta, quiescence, piece-square tables, MVV-LVA move
 ordering, killers and a transposition table, to a fixed 100,000-node
 budget per move. No clock, no randomness, standard library only.
 
+## Results
+
+Verified on the kit's 6-game practice trial: practice Elo 1,809
+(W5/D1/L0), 0 timeouts, deterministic replay matched byte-for-byte.
+Perft exact: startpos depth 4 = 197,281; Kiwipete depth 3 = 97,862.
+
 MIT, see LICENSE.
